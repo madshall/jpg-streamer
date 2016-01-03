@@ -1,0 +1,32 @@
+{
+  "author": {
+    "email": "madshall.dev@gmail.com",
+    "name": "Dmitry Ivanov"
+  },
+  "dependencies": {},
+  "description": "Takes a stream of JPEGs, like from image2pipe of ffmpeg, and emits the individual JPEGs from them.",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "directories": {},
+  "keywords": [
+    "ffmpeg",
+    "jpg",
+    "stream"
+  ],
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com/madshall/jpg-streamer/blob/master/LICENSE"
+  },
+  "main": "index.js",
+  "name": "jpg-streamer",
+  "optionalDependencies": {},
+  "repository": {
+    "url": "https://github.com/madshall/jpg-streamer.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.js"
+  },
+  "version": "0.1.0"
+}
