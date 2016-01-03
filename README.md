@@ -5,7 +5,7 @@ A little module for splitting out individual JPEG files from streams.
 ## Example
 ```js
 var JpgStreamer = require('jpg-streamer');
-var spawn = require('child_process').spawn,
+var spawn = require('child_process').spawn;
 
 ffmpeg = spawn('ffmpeg', ffmpegArgs);
 
