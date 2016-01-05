@@ -1,11 +1,8 @@
 (function () {
   "use strict";
-  var fs = require('fs')
-    , stream = require('stream')
-    , JPEG_HEADER_BUF
-    , JPEG_HEADER_STRING
-    , JpgStreamer
-    ;
+  var JPEG_HEADER_BUF,
+      JPEG_HEADER_STRING,
+      JpgStreamer;
 
   JPEG_HEADER_BUF = new Buffer([0xFF, 0xD8, 0xFF]);
   JPEG_HEADER_STRING = JPEG_HEADER_BUF.toString('binary');
